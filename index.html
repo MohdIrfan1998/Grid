@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap:1em;
+            grid-row-gap:1em; */
+            grid-gap:  1em;
+
+        }
+
+        .wrapper>div {
+            background-color: #eee;
+            padding: 1em;
+        }
+
+        .wrapper>div:nth-child(odd) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nobis eligendi ducimus debitis veritatis
+            temporibus sint nemo consequuntur reiciendis. Cumque quam nisi eligendi libero placeat quas necessitatibus,
+            repellat corporis at voluptatibus autem exercitationem. Ea quos sit blanditiis dolorum quis, consequuntur
+            officiis cum iure est doloribus dignissimos veritatis aliquam voluptatum saepe obcaecati voluptates cumque
+            architecto suscipit fugit nemo aperiam quibusdam dicta. Dignissimos dolorum ex quo? Voluptates magni
+            deleniti, labore illo debitis, tenetur odio aut, velit fuga expedita beatae quam. Fuga, ipsum!</div>
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus sapiente repudiandae at delectus
+            excepturi ea est accusamus quos. Delectus officiis qui quod quaerat officia porro cum laudantium dolorum
+            illum saepe!</div>
+
+
+
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nobis eligendi ducimus debitis veritatis
+            temporibus sint nemo consequuntur reiciendis. Cumque quam nisi eligendi libero placeat quas necessitatibus,
+            repellat corporis at voluptatibus autem exercitationem. Ea quos sit blanditiis dolorum quis, consequuntur
+            officiis cum iure est doloribus dignissimos veritatis aliquam voluptatum saepe obcaecati voluptates cumque
+            architecto suscipit fugit nemo aperiam quibusdam dicta. Dignissimos dolorum ex quo? Voluptates magni
+            deleniti, labore illo debitis, tenetur odio aut, velit fuga expedita beatae quam. Fuga, ipsum!</div>
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus sapiente repudiandae at delectus
+            excepturi ea est accusamus quos. Delectus officiis qui quod quaerat officia porro cum laudantium dolorum
+            illum saepe!</div>
+
+
+
+
+    </div>
+</body>
+
+</html>
